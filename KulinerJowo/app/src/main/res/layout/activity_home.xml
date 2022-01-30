@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="-30dp"
+        android:background="@color/mainColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgTop"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imgTop"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:scaleY="1.4"
+        android:scaleX="1.4"
+        android:src="@drawable/family_lunch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textOpening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temukan Resep Kuliner Khas Jawa"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgTop" />
+
+    <Button
+        android:id="@+id/buttonJabar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Jawa Barat"
+        android:textSize="20dp"
+        android:textColor="@color/mainColor"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/btn_radius"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@id/textOpening"
+        app:layout_constraintBottom_toTopOf="@+id/buttonJateng"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonJateng"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Jawa Tengah"
+        android:textSize="20dp"
+        android:textColor="@color/mainColor"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/btn_radius"
+        app:layout_constraintBottom_toBottomOf="@id/buttonJatim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/buttonJabar" />
+
+    <Button
+        android:id="@+id/buttonJatim"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="190dp"
+        android:backgroundTint="@color/white"
+        android:text="Jawa Timur"
+        android:textColor="@color/mainColor"
+        android:textSize="20dp"
+        android:background="@drawable/btn_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonJateng" />
+
+    <TextView
+        android:id="@+id/textNightMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark mode"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toRightOf="@id/buttonJatim"
+        app:layout_constraintRight_toLeftOf="@id/switchMode"
+        app:layout_constraintTop_toBottomOf="@id/buttonJatim"
+        app:layout_constraintBottom_toTopOf="@id/imgBottom"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintRight_toLeftOf="@id/buttonJatim"
+        app:layout_constraintLeft_toRightOf="@id/textNightMode"
+        app:layout_constraintBottom_toTopOf="@id/imgBottom"
+        app:layout_constraintTop_toBottomOf="@id/buttonJatim" />
+
+    <ImageView
+        android:id="@+id/imgBottom"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginBottom="-40dp"
+        android:src="@drawable/food_illustration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
