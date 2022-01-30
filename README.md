@@ -9,7 +9,7 @@ Kuliner Jowo merupakan aplikasi resep masakan khas jawa yang dapat membantu peng
 
 | Informasi | Detail |
 | ----- | --- |
-| Android Studio Version | Android Studio Arctic Fox (2020.3.1 Patch 4) |
+| Android Studio Version | Arctic Fox (2020.3.1 Patch 4) |
 | minSdk | 21 (Lollipop) |
 | targetSdk | 31 (Snow Cone) |
 | Recommended SDK | 26 (Oreo) or Higher |
@@ -17,4 +17,4 @@ Kuliner Jowo merupakan aplikasi resep masakan khas jawa yang dapat membantu peng
 | jvmTarget | 1.8 |
 
 
-Download Aplikasi [Kuliner Jowo v1.1.0 BETA](https://kuliner-jowo.rizkidelagaprasetya.online) atau Lihat Project [Disini!](https://github.com/RizkiDelaga/Aplikasi-Kuliner-Jowo/tree/main/KulinerJowo)
+Download Aplikasi [Kuliner Jowo (v1.0 BETA 1](https://kuliner-jowo.rizkidelagaprasetya.online) atau Lihat Project [Disini!](https://github.com/RizkiDelaga/Aplikasi-Kuliner-Jowo/tree/main/KulinerJowo)
