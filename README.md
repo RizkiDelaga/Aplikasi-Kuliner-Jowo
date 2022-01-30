@@ -17,4 +17,4 @@ Kuliner Jowo merupakan aplikasi resep masakan khas jawa yang dapat membantu peng
 | jvmTarget | 1.8 |
 
 
-Download Aplikasi [Kuliner Jowo (v1.0 BETA 1](https://kuliner-jowo.rizkidelagaprasetya.online) atau Lihat Project [Disini!](https://github.com/RizkiDelaga/Aplikasi-Kuliner-Jowo/tree/main/KulinerJowo)
+Download Aplikasi [Kuliner Jowo (v1.0 BETA 1)](https://kuliner-jowo.rizkidelagaprasetya.online) atau Lihat Project [Disini!](https://github.com/RizkiDelaga/Aplikasi-Kuliner-Jowo/tree/main/KulinerJowo)
